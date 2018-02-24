@@ -1,7 +1,7 @@
 {
   "name": "thebugger",
   "version": "1.0.0",
-  "description": "The easiest way to debug your nodejs process.",
+  "description": "Debug a nodejs process without inspect flags.",
   "engines" : {
     "node" : "^8.0.0"
   },
