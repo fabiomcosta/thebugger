@@ -1,0 +1,16 @@
+{
+  "name": "thebugger",
+  "version": "1.0.0",
+  "description": "The easiest way to debug your nodejs process.",
+  "engines" : {
+    "node" : "^8.0.0"
+  },
+  "repository": "https://github.com/fabiomcosta/thebugger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["debugger", "thebugger", "debug", "ndb", "pdb", "set_trace"],
+  "author": "Fabio Miranda Costa",
+  "license": "MIT"
+}
