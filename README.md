@@ -42,7 +42,7 @@ Debugger listening on ws://127.0.0.1:9222/038a3e89-b497-4558-9709-6a3da5ec3803
 For help see https://nodejs.org/en/docs/inspector
 ```
 
-Now you can open any Chrome DevTools and click on the ![green nodejs icon](./assets/devtools_nodejs_green_icon.png).
+Now you can open any Chrome DevTools and click on the ![green nodejs icon](./assets/devtools_nodejs_icon.png).
 Further instructions at: https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
 
 You also can use any DevTools frontend of your preference.
