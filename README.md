@@ -25,7 +25,7 @@ open an `inspector`.
 Calling `inspector` in a blocking way is a bit cumbersome though, that's why
 this lib was created.
 
-## Usage
+## Install
 
 Install `thebugger` as a dev dependency:
 
@@ -35,6 +35,8 @@ npm i --save-dev thebugger
 yarn add --dev thebugger
 ```
 
+## Usage
+
 Add `thebugger()` to the line of code you want to start debugging, which is
 where you'd add a `debugger;` statement.
 
@@ -42,7 +44,7 @@ where you'd add a `debugger;` statement.
 require('thebugger')();
 ```
 
-Wait untill your nodejs process prints:
+Wait until your nodejs process prints:
 
 ```
 Debugger listening on ws://127.0.0.1:9222/038a3e89-b497-4558-9709-6a3da5ec3803
@@ -50,6 +52,7 @@ For help see https://nodejs.org/en/docs/inspector
 ```
 
 Now you can open any Chrome DevTools and click on the green nodejs icon <img height="22" src="./assets/devtools_nodejs_icon.png"/>.
+After connecting with DevTools, you'll want to click on "step out" <img height="20" src="./assets/devtools_step_out.png"/> to start debugging your code.
 
 Further instructions at: https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
 
