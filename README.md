@@ -1,4 +1,4 @@
-<p>
+<p align="center">
   <img align="center" src="assets/logo.png" alt="thebugger logo" width="120" />
 </p>
 
