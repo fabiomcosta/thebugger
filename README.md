@@ -1,3 +1,7 @@
+<h3 align="center">
+  <img align="center" src="assets/mvjs_logo.png" alt="mvjs logo" width="120" />
+</h3>
+
 <p align="center">
   debug a nodejs process without inspect flags.
 </p>
