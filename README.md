@@ -4,7 +4,7 @@
 
 # thebugger &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fabiomcosta/thebugger/blob/master/LICENSE) [![npm version](https://badge.fury.io/js/thebugger.svg)](https://badge.fury.io/js/thebugger)
 
-**Note:** works only on node version 8 or bigger
+**Note:** works only on node>=8
 
 ## The problem
 
@@ -15,8 +15,11 @@ It works great, but most of the times I don't have full control over the process
 flags because I'm executing the process through a wrapper, generally `jest`,
 `mocha` or `gulp` and so many others.
 
-This module opens the `inspector` and stops the process when `thebugger()` is called,
-allowing folks to debug any nodejs process without having to pass any flags.
+Node 8 comes with the `inspector` module, which allows users to programmatically
+open an `inspector`.
+
+Calling `inspector` in a blocking way is a bit cumbersome though, that's why
+this lib was created.
 
 ## Usage
 
@@ -43,6 +46,7 @@ For help see https://nodejs.org/en/docs/inspector
 ```
 
 Now you can open any Chrome DevTools and click on the green nodejs icon <img height="22" src="./assets/devtools_nodejs_icon.png"/>.
+
 Further instructions at: https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
 
-You also can use any DevTools frontend of your preference.
+You also can use any DevTools frontend of your preference, like `node inspect`.
