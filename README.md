@@ -37,10 +37,6 @@ yarn add --dev thebugger
 
 ## Usage
 
-<p>
-  <img align="center" src="assets/devtools_debug.png" />
-</p>
-
 Add `thebugger()` to the line of code you want to start debugging, which is
 where you'd add a `debugger;` statement.
 
@@ -60,6 +56,10 @@ works on them.
 
 Now you can open any Chrome DevTools and click on the green nodejs icon <img height="22" src="./assets/devtools_nodejs_icon.png"/>.
 After connecting with DevTools, you'll want to click on "step out" <img height="20" src="./assets/devtools_step_out.png"/> to start debugging your code.
+
+<p>
+  <img align="center" src="assets/devtools_debug.png" />
+</p>
 
 Further instructions at: https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
 
