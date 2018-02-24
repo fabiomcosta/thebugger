@@ -51,6 +51,9 @@ Debugger listening on ws://127.0.0.1:9222/038a3e89-b497-4558-9709-6a3da5ec3803
 For help see https://nodejs.org/en/docs/inspector
 ```
 
+**Note:** `jest` and other wrappers might not show this message but debugger still
+works on them.
+
 Now you can open any Chrome DevTools and click on the green nodejs icon <img height="22" src="./assets/devtools_nodejs_icon.png"/>.
 After connecting with DevTools, you'll want to click on "step out" <img height="20" src="./assets/devtools_step_out.png"/> to start debugging your code.
 
