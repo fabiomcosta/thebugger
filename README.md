@@ -1,6 +1,6 @@
-<h3 align="center">
+<p>
   <img align="center" src="assets/logo.png" alt="thebugger logo" width="120" />
-</h3>
+</p>
 
 <p align="center">
   debug a nodejs process without inspect flags.
@@ -36,6 +36,10 @@ yarn add --dev thebugger
 ```
 
 ## Usage
+
+<p>
+  <img align="center" src="assets/devtools_debug.png" />
+</p>
 
 Add `thebugger()` to the line of code you want to start debugging, which is
 where you'd add a `debugger;` statement.
