@@ -12,11 +12,11 @@
 
 ## The problem
 
-Debugging currently requires proving the main `node` process flags like `--inspect`
+Debugging currently requires providing the main `node` process flags like `--inspect`
 and/or `--inspect-brk`.
 
-It works great, but most of the times I don't have full control over the process
-flags because I'm executing the process through a wrapper, generally `jest`,
+It works great, but sometimes we don't have full control over the process
+flags because we execute the process through a wrapper, generally `jest`,
 `mocha` or `gulp` and so many others.
 
 Node 8 comes with the `inspector` module, which allows users to programmatically
